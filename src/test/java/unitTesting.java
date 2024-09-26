@@ -29,4 +29,9 @@ public class unitTesting {
     public static void confirmConnectionClosing(){
         System.out.println("Connection Closed Successful");
     }
+    @Test
+    public void testAdd(){
+      int sum=mod.add(10,2);
+      assertEquals(12,sum);
+    }
 }
