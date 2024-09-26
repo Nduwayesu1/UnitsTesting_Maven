@@ -34,4 +34,9 @@ public class unitTesting {
       int sum=mod.add(10,2);
       assertEquals(12,sum);
     }
+     @Test
+    public void divideTest(){
+        int divide=mod.divide(25,5);
+        assertEquals(5,divide);
+    }
 }
